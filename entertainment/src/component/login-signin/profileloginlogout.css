@@ -1,0 +1,170 @@
+/* 
+primary color : 10141E //bg
+red color : fc4747 //bg
+gray color : 5a698f //bg
+lite bg : 161d2f //bg
+
+*/
+.login-component{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #10141E;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    width: 30%;
+    height: 90%;
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 100px 1fr 100px;
+    margin-top: 10px;
+}
+
+.signin-box{
+    background-color: #161d2f;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+}
+.sub-login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161d2f;
+
+}
+
+  .input-lebal {
+    font-size: medium;
+    padding-left: 10px;
+    background-color: #161d2f;
+    color: aliceblue;
+    border: none; 
+    border-bottom: 1px solid #ffffff; 
+    outline: none; 
+    margin-bottom: 14px;
+  }
+/* sign up container only  */
+.signup-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #10141E; /* Background color for the entire container */
+}
+
+.signup-main-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Maximum width for the form */
+    background-color: #161d2f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.movie-logo {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 80px;
+    height: 70px;
+}
+
+#signup-button {
+    background-color: #fc4747;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sub-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-input-lebal {
+    font-size: medium;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: #161d2f;
+    color: aliceblue;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    margin-bottom: 14px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .signup-main-box {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .signup-input-lebal {
+        width: 100%;
+        font-size: small;
+        padding-left: 3px;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    .signup-main-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .signup-input-lebal {
+        width: 100%;
+        font-size: medium;
+        padding-left: 3px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    input{
+        width: 100%;
+        font-size: small;
+        padding-left: 3px;
+    }
+    .login-box{
+        width: 98%;
+        height: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    .signin-box{
+        background-color: #161d2f;
+        width: 100%;
+        border-radius: 10px;
+        padding: 30px;
+    }
+  
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    input{
+        width: 100%;
+        font-size: medium;
+        padding-left: 3px;
+    }
+    .login-box{
+        width: 80%;
+        height: 90%;
+    
+    }
+    
+}
